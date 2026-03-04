@@ -8,7 +8,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">About Us</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            FixitNow is your trusted partner for all household services. We verify professionals to ensure you get the best quality work, every time.
+            Location Based Household Management System is your trusted partner for all household services. We verify professionals to ensure you get the best quality work, every time.
           </p>
         </div>
       </section>
@@ -19,7 +19,7 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-bold text-blue-900 mb-6">Who We Are</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              We are a dedicated team of problem solvers committed to making home maintenance effortless. Founded with the belief that finding a reliable plumber or electrician shouldn’t be a hassle, FixitNow connects you with skilled professionals in minutes.
+              We are a dedicated team of problem solvers committed to making home maintenance effortless. Founded with the belief that finding a reliable plumber or electrician shouldn’t be a hassle, Location Based Household Management System connects you with skilled professionals in minutes.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Our platform bridges the gap between homeowners and service providers, ensuring transparency, safety, and efficiency in every job.

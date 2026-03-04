@@ -75,8 +75,8 @@ const Navbar = () => {
         {/* Brand Logo */}
         <Link to="/" className="text-2xl font-bold text-blue-700 tracking-wide flex items-center gap-2">
           <span className="text-2xl font-bold tracking-wide">
-            <span className="text-blue-700">Fixit</span>
-            <span className="text-orange-500">Now</span>
+            <span className="text-blue-700">Location Based Household </span>
+            <span className="text-orange-500">Management System</span>
           </span>
         </Link>
 

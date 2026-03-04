@@ -136,7 +136,7 @@ const Home = () => {
         <div className="container mx-auto px-6 md:px-12">
           <div className="flex flex-col lg:flex-row items-center gap-16">
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-5xl font-bold text-blue-900 mb-8">Why Trust FixitNow?</h2>
+              <h2 className="text-3xl md:text-5xl font-bold text-blue-900 mb-8">Why Trust Location Based Household Management System?</h2>
               <div className="space-y-6">
                 {[
                   { t: "Verified Professionals", d: "Strict background checks for your peace of mind." },
@@ -199,7 +199,7 @@ const Home = () => {
 
           {/* Light Subtext */}
           <p className="text-gray-600 text-lg md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed">
-            Join 10,000+ happy homeowners who trust FixitNow for seamless repairs,
+            Join 10,000+ happy homeowners who trust Location Based Household Management System for seamless repairs,
             expert maintenance, and total peace of mind.
           </p>
 

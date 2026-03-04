@@ -97,7 +97,7 @@ const Login = () => {
              </div>
            </div>
            <h2 className="text-3xl font-bold text-blue-900 mb-2">Welcome Back</h2>
-           <p className="text-gray-500">Securely login to your FixitNow account</p>
+           <p className="text-gray-500">Securely login to your account</p>
         </div>
 
         {serverError && (

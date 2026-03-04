@@ -172,7 +172,7 @@ const Register = () => {
       <div className="bg-white p-8 md:p-10 rounded-2xl shadow-2xl w-full max-w-2xl border border-gray-100">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-blue-900 mb-2">Create Your Account</h2>
-          <p className="text-gray-500">Join FixitNow and get started today</p>
+          <p className="text-gray-500">Join Now and get started today</p>
         </div>
 
         {/* ... (error/success messages) */}

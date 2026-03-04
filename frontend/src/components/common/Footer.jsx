@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div>
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-              <span>FixitNow</span>
+              <span>Location Based Household Management System</span>
             </h2>
             <p className="text-blue-200 text-sm leading-relaxed mb-6">
               Your trusted partner for all household services. We connect you with verified professionals to get the job done right, safe, and fast.
