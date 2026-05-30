@@ -209,7 +209,7 @@ const ProviderDashboard = () => {
 
                      <div className="text-right">
                         <p className="text-sm text-gray-500">Total Earnings</p>
-                        <p className="text-2xl font-bold text-green-600">${stats.earnings.toFixed(2)}</p>
+                        <p className="text-2xl font-bold text-green-600">₹{stats.earnings.toFixed(2)}</p>
                      </div>
                   </div>
                </div>

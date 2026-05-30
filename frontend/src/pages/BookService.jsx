@@ -141,7 +141,7 @@ const BookService = () => {
                     <div className="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-100 flex items-center justify-between">
                         <div>
                             <span className="text-xs font-semibold text-blue-600 uppercase tracking-wide">Base Price</span>
-                            <div className="text-2xl font-bold text-blue-900">${service.basePrice}</div>
+                            <div className="text-2xl font-bold text-blue-900">₹{service.basePrice}</div>
                         </div>
                         <div className="text-right">
                             <div className="text-xs text-gray-500">Providers Nearby</div>

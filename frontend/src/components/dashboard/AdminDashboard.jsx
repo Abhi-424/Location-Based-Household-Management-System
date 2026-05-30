@@ -346,7 +346,7 @@ const AdminDashboard = () => {
                            <option value="Event">Event</option>
                            <option value="Other">Other</option>
                         </select>
-                        <input type="number" placeholder="Base Price ($)" className="border p-2 rounded" value={serviceForm.basePrice} onChange={e => setServiceForm({ ...serviceForm, basePrice: parseFloat(e.target.value) })} required />
+                        <input type="number" placeholder="Base Price (₹)" className="border p-2 rounded" value={serviceForm.basePrice} onChange={e => setServiceForm({ ...serviceForm, basePrice: parseFloat(e.target.value) })} required />
                         <input type="text" placeholder="Image URL" className="border p-2 rounded" value={serviceForm.imageUrl} onChange={e => setServiceForm({ ...serviceForm, imageUrl: e.target.value })} />
                         <textarea placeholder="Description" className="border p-2 rounded md:col-span-2" rows="2" value={serviceForm.description} onChange={e => setServiceForm({ ...serviceForm, description: e.target.value })} required></textarea>
                         <div className="flex items-center gap-2">
@@ -373,7 +373,7 @@ const AdminDashboard = () => {
                               <tr key={s._id} className={`hover:bg-gray-50 ${!s.isActive ? 'bg-gray-50' : ''}`}>
                                  <td className="px-6 py-4 font-medium">{s.name}</td>
                                  <td className="px-6 py-4 text-sm text-gray-500">{s.category}</td>
-                                 <td className="px-6 py-4">${s.basePrice}</td>
+                                 <td className="px-6 py-4">₹{s.basePrice}</td>
                                  <td className="px-6 py-4">
                                     <span className={`px-2 py-1 rounded text-xs font-bold ${s.isActive ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
                                        {s.isActive ? 'Active' : 'Inactive'}
